@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Customers - delete customer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class=" text-center display-3 fw-bold text-body-emphasis">Customers</h1>
+    <h1 class=" text-center display-7 fw-bold text-body-emphasis">Deletion of customer data</h1>
+    <div class="col-md-10 mx-auto col-lg-5 border rounded-3 bg-body-tertiary shadow text-center">
+        <h2>Are you sure you want to delete {{ customer_name }}?</h2>
+        {# Delete buuton with GET confirmation #}
+        <a href="{{delete}}?confirmed=True"><button class="w-50 m-1 btn btn-danger">Delete</button></a>
+        <a href="{{main_site}}"><button class="w-50 m-1 btn btn-secondary">Cancel</button></a>
+    </div>
+</body>
+
+</html>
