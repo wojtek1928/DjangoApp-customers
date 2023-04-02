@@ -1,4 +1,4 @@
-## DjangoApp
+# DjangoApp
 API and UI made using the Django with DRF that allows to create Customers with fields: `name`, `VAT identification number`, `creation date`, `address`(fields: `street`, `house number`, `apartment number`, `city`, `postal code`). Every customer has one address and all fields except `creation date` are editable.
 
 The customers can be added, edited and deleted without authentication via `UI` and with superuser's credentials via `django administrator panel` and `API`.
@@ -21,4 +21,4 @@ The customers can be added, edited and deleted without authentication via `UI` a
     - `127.0.0.1:8000/<customer_uuid>/edit` - displays customer edition form
     - `127.0.0.1:8000/<customer_uuid>/delete` - displays customer deletion confirmation
 
-# Superuser account:root password: admin123#
+### Superuser account:root password: admin123#
