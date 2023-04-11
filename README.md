@@ -4,7 +4,7 @@ API and UI made using the Django with DRF that allows to create Customers with f
 Customers can be added, edited and deleted without authentication via the `UI`, with authentication privileges via the `API` and with superuser credentials via the `django admin panel`.
 
 ## Live preview
-You may check my application at: `http://djangoapp.joaorz.atthost24.pl/` Available addresses are in the section below, the api is available only after logging in with the username `guest` with the password `admin123#` 
+You may check my application at: http://djangoapp.joaorz.atthost24.pl/ Available addresses are in the section below, the api is available only after logging in with the username `guest` with the password `admin123#` 
 
 ## Available addresses:
 1. Admin panel(not available in live preview):
